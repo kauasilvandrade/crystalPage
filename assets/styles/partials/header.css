@@ -1,0 +1,76 @@
+header {
+    padding: 1.5rem;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header__logo-nav img {
+    width: 5rem;
+    vertical-align: middle;
+}
+
+.header__nav {}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.menu__item {}
+
+.menu__item a {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #7b7b7b;
+}
+.menu__item a:hover {
+    color: black;
+
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__actions a {
+    font-size: 0.7em;
+    transition: .5s;
+}
+
+a:hover {
+    scale: 1.1;
+}
+
+.header__link--sing {
+    color: #7b7b7b;
+}
+.header__link--sing:hover {
+    color: black;
+}
+
+.header__link--login {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border-radius: 15px;
+    padding: 0.4rem 0.8rem;
+}
+
+.header__link--login img {
+    width: 0.8rem;
+}
