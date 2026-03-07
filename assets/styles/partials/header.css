@@ -1,5 +1,9 @@
 header {
     padding-block: 1.3rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 header .container {
@@ -51,7 +55,7 @@ header .container {
     transition: .5s;
 }
 
-a:hover {
+.header__actions a:hover {
     scale: 1.1;
 }
 
@@ -60,18 +64,4 @@ a:hover {
 }
 .header__link--sing:hover {
     color: #575656;
-}
-
-.header__link--login {
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    border-radius: 333px;
-    padding: 0.5rem 1rem 0.5rem 1.3rem;
-}
-
-.header__link--login img {
-    width: 1.2rem;
 }

@@ -1,0 +1,84 @@
+.futureSection {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 6.5rem;
+    gap: 5rem;
+}
+
+.futureSection__introduction {}
+
+.futureSection__introduction h1 {
+    font-size: 4.2em;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 2.8rem;
+}
+
+.futureSection__introduction p {
+    margin-block: 1.3rem;
+    color: #7b7b7b;
+    font-size: 1em;
+    max-width: 90%;
+    line-height: 1.4;
+}
+
+.futureSection__introduction a {
+    width: 10.5rem;
+}
+
+.futureSection__smartphoneBig {
+    position: relative;
+}
+
+.futureSection__imagesPhone {
+    position: relative;
+}
+
+.futureSection__imagesPhone .bordaPhone {
+    width: 30rem;
+    position: relative;
+    z-index: 1;
+}
+.futureSection__imagesPhone .contentPhone {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.futureSection__datasSlide {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 12rem;
+    right: 25rem;
+    padding: 3rem;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    z-index: -1;
+}
+
+.futureSection__datasSlide .datasSlide__data:nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 15rem;
+    padding-left: 2.5rem;
+}
+
+.datasSlide__data {
+    width: 11rem;
+}
+
+.datasSlide__data span {
+    color: #a09f9f;
+    font-weight: 500;
+    text-align: center;
+}
+
+.datasSlide__data h2 {
+    font-size: 2.6em;
+    font-weight: 600;
+}
