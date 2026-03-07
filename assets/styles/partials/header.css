@@ -1,5 +1,5 @@
 header {
-    padding: 1.5rem;
+    padding-block: 1.3rem;
 }
 
 header .container {
@@ -10,12 +10,12 @@ header .container {
 
 .header__logo-nav {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     align-items: center;
 }
 
 .header__logo-nav img {
-    width: 5rem;
+    width: 7.5rem;
     vertical-align: middle;
 }
 
@@ -24,29 +24,29 @@ header .container {
 .menu {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .menu__item {}
 
 .menu__item a {
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 1em;
+    font-weight: 500;
     color: #7b7b7b;
 }
 .menu__item a:hover {
     color: black;
-
 }
 
 .header__actions {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .header__actions a {
-    font-size: 0.7em;
+    font-size: 1em;
     transition: .5s;
 }
 
@@ -55,10 +55,10 @@ a:hover {
 }
 
 .header__link--sing {
-    color: #7b7b7b;
+    color: black;
 }
 .header__link--sing:hover {
-    color: black;
+    color: #575656;
 }
 
 .header__link--login {
@@ -67,10 +67,10 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    border-radius: 15px;
-    padding: 0.4rem 0.8rem;
+    border-radius: 333px;
+    padding: 0.5rem 1rem 0.5rem 1.3rem;
 }
 
 .header__link--login img {
-    width: 0.8rem;
+    width: 1.2rem;
 }
