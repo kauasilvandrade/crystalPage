@@ -1,0 +1,47 @@
+.bankSection {}
+
+.bankSection h2, .bankSection > p {
+    text-align: center;
+}
+
+.bankSection h2 {
+    font-size: 3.7em;
+    font-weight: 600;
+}
+
+.bankSection p {
+    padding-top: 0.5rem;
+    color: #7b7b7b;
+}
+
+.banckSection__cards {
+    display: flex;
+    gap: 4rem;
+    margin-top: 6rem;
+}
+
+.banckSection__cardBox {
+    margin-bottom: 4rem;
+}
+
+.banckSection__cardBox figure {
+    width: 100%;
+    display: block;
+    background: white;
+    border-radius: 30px;
+    padding-top: 4.5rem;
+}
+
+.banckSection__cardBox figure img {
+    display: block;
+    width: 23rem;
+    margin: auto;
+}
+
+.banckSection__cardBox h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.banckSection__cardBox p {}
