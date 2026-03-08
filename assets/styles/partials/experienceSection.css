@@ -1,0 +1,37 @@
+.experienceSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experienceSection__description {
+    padding-left: 4rem;
+}
+
+.experienceSection__description h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.experienceSection__description p {
+    color: #7b7b7b;
+    width: 26.8rem;
+    margin-block: 0.6rem 4rem;
+}
+
+.experienceSection__topicList {}
+
+.experienceSection__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.experienceSection__item img {}
+
+.experienceSection__item span {}
+
+.experienceSection > img {
+    width: 40rem;
+}

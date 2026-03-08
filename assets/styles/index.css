@@ -1,7 +1,10 @@
 @import url(global.css);
 @import url(elements.css);
+
 @import url(partials/header.css);
 @import url(partials/futureSection.css);
 @import url(partials/bankSection.css);
 @import url(partials/featureSection.css);
 @import url(partials/partnersSection.css);
+@import url(partials/platformSection.css);
+@import url(partials/experienceSection.css);
