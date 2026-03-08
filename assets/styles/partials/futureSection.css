@@ -18,7 +18,7 @@
     margin-block: 1.3rem;
     color: #7b7b7b;
     font-size: 1em;
-    max-width: 90%;
+    max-width: 77%;
     line-height: 1.4;
 }
 
@@ -52,12 +52,12 @@
     background-color: black;
     color: white;
     bottom: 12rem;
-    right: 25rem;
-    padding: 3rem;
+    right: 23rem;
+    padding: 3rem 10rem 3rem 4rem;
     border-radius: 28px;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3rem;
     z-index: -1;
 }
 

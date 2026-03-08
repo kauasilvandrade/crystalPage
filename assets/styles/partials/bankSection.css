@@ -5,18 +5,17 @@
 }
 
 .bankSection h2 {
-    font-size: 3.7em;
+    font-size: 3.9em;
     font-weight: 600;
 }
 
 .bankSection p {
-    padding-top: 0.5rem;
     color: #7b7b7b;
 }
 
 .banckSection__cards {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     margin-top: 6rem;
 }
 
@@ -34,7 +33,7 @@
 
 .banckSection__cardBox figure img {
     display: block;
-    width: 23rem;
+    width: 30rem;
     margin: auto;
 }
 
