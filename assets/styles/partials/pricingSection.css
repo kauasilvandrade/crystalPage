@@ -1,0 +1,128 @@
+.pricingSection {
+    margin-bottom: 6rem;
+}
+
+.pricingSection h2, .pricingSection p {
+    text-align: center;
+}
+
+.pricingSection h2 {
+    font-size: 3.9em;
+    font-weight: 600;
+}
+
+.pricingSection p {
+    color: #7b7b7b;
+    margin-bottom: 4rem;
+}
+
+.pricingSection__cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pricingSection__cardPricing {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    width: 35rem;
+}
+
+.pricingSection__header {}
+
+.pricingSection__header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.header__basic {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 0.4rem 1.7rem;
+    font-size: 1.1em;
+}
+
+.header__price {}
+
+.header__price strong {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.header__price small {
+    font-size: 1em;
+}
+
+.pricingSection__header h3 {
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.pricingSection__characteristicList {
+    border-top: 1px solid #cbcaca;
+    border-bottom: 1px solid #cbcaca;
+    padding-block: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.pricingSection__item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricingSection__item img {}
+
+.pricingSection__item span {
+    font-size: 1.2em;
+}
+
+.pricingSection__cardPricing a {
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 333px;
+    padding: 0.9rem 1rem 0.9rem 1.3rem;
+    text-align: center;
+    transition: .5s;
+    font-size: 1.1em;
+    scale: 0.9;
+}
+
+.pricingSection__cardPricing a:hover {
+    scale: 1;
+}
+
+.cardBlack {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.cardBlack::before {
+    content: '';
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.3rem;
+    position: absolute;
+    border-radius: 50%;
+    top: -1rem;
+    right: -1rem;
+    background-size: 2.2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(../../images/icon/fire-2.png);
+}
+
+.cardBlack .header__basic, .cardBlack.pricingSection__cardPricing a {
+    background-color: white;
+    color: black;
+}

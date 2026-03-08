@@ -4,9 +4,7 @@
     align-items: center;
 }
 
-.experienceSection__description {
-    padding-left: 4rem;
-}
+.experienceSection__description {}
 
 .experienceSection__description h3 {
     font-size: 2em;
