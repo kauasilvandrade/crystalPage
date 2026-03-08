@@ -33,3 +33,28 @@
 .experienceSection > img {
     width: 40rem;
 }
+
+@media (max-width: 1230px) {
+    .experienceSection {
+        flex-direction: column;
+    }
+
+    .experienceSection__description {
+        width: 50rem;
+    }
+
+    .experienceSection__description p {
+        width: auto;
+    }
+}
+
+@media (max-width: 950px) {
+    .platformSection__descriptionPlataform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienceSection__description {
+        width: 100%;
+    }
+}

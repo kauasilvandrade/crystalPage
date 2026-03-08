@@ -16,6 +16,14 @@ figcaption {
 }
 
 .container {
-    width: 1270px;
+    width: 100%;
+    max-width: 79.375rem;
     margin: auto;
+    padding-inline: 2rem;
 }
+
+/* @media (max-width: 1350px) {
+    .container {
+        width: 60rem; 
+    }
+} */

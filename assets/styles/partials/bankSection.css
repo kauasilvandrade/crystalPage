@@ -29,11 +29,13 @@
     background: white;
     border-radius: 30px;
     padding-top: 4.5rem;
+    padding-inline: 2rem;
 }
 
 .banckSection__cardBox figure img {
     display: block;
-    width: 30rem;
+    width: 100%;
+    max-width: 30rem;
     margin: auto;
 }
 
@@ -44,3 +46,11 @@
 }
 
 .banckSection__cardBox p {}
+
+@media (max-width: 950px) {
+    .banckSection__cards {
+        gap: 0rem;
+        margin-top: 0rem;
+        flex-direction: column;
+    }
+}

@@ -74,3 +74,28 @@
 .downloadSection__download a {
     padding-block: 1rem;
 }
+
+@media (max-width: 1350px) {
+    .platformSection {
+        gap: 0;
+    }
+}
+
+@media (max-width: 1230px) {
+    .platformSection {
+        flex-direction: column;
+    }
+
+    .platformSection__descriptionPlataform {
+        margin-top: 3rem;
+        grid-template-rows: 8rem 6rem 3rem;
+        grid-template-columns: 25rem 21rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .platformSection__descriptionPlataform {
+        display: flex;
+        flex-direction: column;
+    }
+}

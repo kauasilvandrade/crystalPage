@@ -126,3 +126,15 @@
     background-color: white;
     color: black;
 }
+
+@media (max-width: 950px) {
+    .pricingSection__cardPricing {
+        width: 100%;
+    }
+
+    .pricingSection__cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

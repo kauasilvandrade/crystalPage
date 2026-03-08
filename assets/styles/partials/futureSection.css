@@ -82,3 +82,9 @@
     font-size: 2.6em;
     font-weight: 600;
 }
+
+@media (max-width: 950px) {
+    .featureSection__cards {
+        flex-direction: column;
+    }
+}
