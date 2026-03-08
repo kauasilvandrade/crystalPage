@@ -1,0 +1,39 @@
+.featureSection {}
+
+.featureSection h2, .featureSection > p {
+    text-align: center;
+}
+
+.featureSection h2 {
+    font-size: 3.9em;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.featureSection p {
+    color: #7b7b7b;
+    margin-bottom: 3rem;
+}
+
+.featureSection__cards {
+    display: flex;
+    gap: 3rem;
+}
+
+.featureSection__card {
+    background-color: white;
+    border-radius: 33px;
+    padding: 2rem 2rem 0px 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.featureSection__card img[src^="assets/images/global/phone"] {
+    width: 20rem;
+    display: block;
+    margin: auto;
+}
+
+.featureSection__card p {
+    margin-block: 1rem; 
+}

@@ -1,0 +1,43 @@
+.partnersSection {}
+
+.partnersSection h2, .partnersSection p {
+    text-align: center;
+}
+
+.partnersSection h2 {
+    font-size: 3.9em;
+    font-weight: 600;
+    padding-top: 5rem;
+}
+
+.partnersSection p {
+    color: #7b7b7b;
+    margin-bottom: 3rem;
+}
+
+.partnersSection__partnersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.partnersSection__item {
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+    width: 24rem;
+    padding: 4rem;
+}
+
+.partnersSection__item img {
+    width: 10rem;
+}
+
+.partnersSection a {
+    width: 15rem;
+    margin: auto;
+}
