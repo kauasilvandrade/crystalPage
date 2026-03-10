@@ -65,3 +65,9 @@
 .header__link--sing:hover {
     color: #575656;
 }
+
+@media (max-width: 850px) {
+    .header__nav, .header__actions {
+        display: none;
+    }
+}

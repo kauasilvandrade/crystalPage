@@ -31,7 +31,8 @@
 .experienceSection__item span {}
 
 .experienceSection > img {
-    width: 40rem;
+    max-width: 40rem;
+    width: 100%;
 }
 
 @media (max-width: 1230px) {

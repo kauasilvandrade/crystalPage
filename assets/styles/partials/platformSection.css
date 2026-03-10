@@ -8,7 +8,8 @@
 .platformSection__cards {}
 
 .platformSection__cards img {
-    width: 40rem;
+    max-width: 40rem;
+    width: 100%;
 }
 
 .platformSection__descriptionPlataform {

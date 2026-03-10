@@ -72,3 +72,20 @@ footer {}
 .footerBottom p a:hover {
     color: #6e6c6c;
 }
+
+@media (max-width: 850px) {
+    .footerTop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerTop__description p {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .footerTop__navigation {
+        flex-direction: column;
+        width: 100%;
+    }
+}
