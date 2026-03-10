@@ -16,3 +16,10 @@
 .blackButtonEffect:hover {
     scale: 1.1;
 }
+
+@media (max-width: 850px) {
+    .blackButtonEffect {
+        width: 100%;
+        justify-content: space-between;    
+    }
+}

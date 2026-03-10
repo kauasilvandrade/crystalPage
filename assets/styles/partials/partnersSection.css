@@ -46,4 +46,8 @@
     .partnersSection h2  {
         font-size: 2.5em;
     }
+
+    .partnersSection a {
+        width: 100%;
+    }
 }

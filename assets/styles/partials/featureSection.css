@@ -40,15 +40,11 @@
 }
 
 @media (max-width: 850px) {
-
-    .downloadSection__download {
-        flex-direction: column;
+    .featureSection h2 {
+        font-size: 2.5em;
     }
 
-    .downloadSection__download div {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
+    .featureSection__cards {
         flex-direction: column;
     }
 }

@@ -99,4 +99,15 @@
         display: flex;
         flex-direction: column;
     }
+        
+    .downloadSection__download {
+        flex-direction: column;
+    }
+
+    .downloadSection__download div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
 }
