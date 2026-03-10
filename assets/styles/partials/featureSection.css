@@ -29,11 +29,26 @@
 }
 
 .featureSection__card img[src^="assets/images/global/phone"] {
-    width: 20rem;
+    max-width: 20rem;
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .featureSection__card p {
     margin-block: 1rem; 
+}
+
+@media (max-width: 850px) {
+
+    .downloadSection__download {
+        flex-direction: column;
+    }
+
+    .downloadSection__download div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
 }

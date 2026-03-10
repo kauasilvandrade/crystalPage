@@ -26,3 +26,12 @@
     position: absolute;
     bottom: -6.7rem;
 }
+
+@media (max-width: 850px) {
+    .downloadSection {
+        padding-inline: 1.2rem;
+    }
+    .downloadSection h2 {
+        font-size: 2.5em;
+    }
+}

@@ -75,3 +75,30 @@
 .qnaSection__moreQuestion a:hover {
     scale: 1.1;
 }
+
+@media (max-width: 850px) {
+    .qnaSection h2 {
+        font-size: 2.5em;
+        margin-bottom: 1rem;
+    }
+
+    .qnaSection__item h3 {
+        font-size: 1em;
+    }
+
+    .qnaSection__moreQuestion {
+        margin-bottom: 5rem;
+        flex-direction: column;
+    }
+
+    .qnaSection__moreQuestion div {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .qnaSection__moreQuestion a {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+}
